@@ -98,6 +98,25 @@
 					{
 						"indexed": true,
 						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					}
+				],
+				"name": "NFTMinted",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
 						"name": "previousOwner",
 						"type": "address"
 					},
@@ -187,25 +206,6 @@
 						"internalType": "address",
 						"name": "",
 						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "hasMinted",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -492,7 +492,7 @@
 					"details": "See {IERC721-isApprovedForAll}."
 				},
 				"mintNFT(address)": {
-					"details": "Fonction pour mint un nouveau NFT.",
+					"details": "Fonction pour minter un nouveau NFT.",
 					"params": {
 						"recipient": "Adresse du destinataire du NFT."
 					},
@@ -547,7 +547,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"PurpleMint.sol": "PurpleMint"
+			"Nft1knads.sol": "PurpleMint"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -561,12 +561,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"PurpleMint.sol": {
-			"keccak256": "0x17ce99b17798c95322ee955ad03a355d4c584f5fe9db371ce83b0ce6e7d85f7d",
+		"Nft1knads.sol": {
+			"keccak256": "0x71f438c83238c37b6ca4b3778d71bf2346553075e701a9eb0d81ae70949ab547",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8789efa265424718b81786c63612200826a5fff6c32f479679c6cfc5c2d739c1",
-				"dweb:/ipfs/QmZjKkjuavRcm61Bxx5t7BfP1XZfeEXt1twS7wEVQYAhSP"
+				"bzz-raw://fd8c90f7ab80379d43c2550e1b8bb8716cb0d6bc179d702f1219c34994e0e577",
+				"dweb:/ipfs/QmTeb1ZdPuvGVX9yYQW7X2JRgyeeVGABZd58ymQyZnJQWc"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.9.2/contracts/access/Ownable.sol": {
