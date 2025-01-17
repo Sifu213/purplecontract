@@ -23,7 +23,7 @@ contract Nft1knads is ERC721URIStorage, Ownable {
     function mintNFT(address recipient) public returns (uint256) {
         uint256 newTokenId = tokenCounter;
         _safeMint(recipient, newTokenId);
-        _setTokenURI(newTokenId, "ipfs://bafkreibu45npne5plcqxds7g4ye77kjvvvdky4wtmijmilh5mqcj3hxx6y");
+        _setTokenURI(newTokenId, "ipfs://ipfs/bafkreigaxlyrafdsezvvhvz23qaktp3ucy4c4vtwfcn6bvxymn3tkshbty");
         tokenCounter += 1;
 
         // Émettre l'événement

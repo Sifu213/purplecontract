@@ -547,7 +547,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Nft1knads.sol": "Nft1knads"
+			"DEVNET2.sol": "Nft1knads"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -561,12 +561,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Nft1knads.sol": {
-			"keccak256": "0x276ecfa956f222708fb6e8c3a519ff6c5288dd111ffdcf38da029416da8e4d2f",
+		"DEVNET2.sol": {
+			"keccak256": "0x4a1125eddaf76945504fab051d86b1204b9558859b84498c55e0975279ddae35",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://327968912b5bce7c79246fd7e79fc4a3eb372953fa88901c063563d553b74e56",
-				"dweb:/ipfs/QmZw4gEjs2aytvqo7mDjqpHUhu3NPrjt8PorcVknKWyHRH"
+				"bzz-raw://9cae6ed5138c7ffc2bf72b95a3adcc13b8f94f19721be3966762087ac2e04e57",
+				"dweb:/ipfs/QmUsEUyTA3QVbXVtZiY5AUKMEpMhjELyL1RnNACf46Nujc"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.9.2/contracts/access/Ownable.sol": {
