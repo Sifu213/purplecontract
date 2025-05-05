@@ -32,7 +32,7 @@ contract M2048 is ERC721URIStorage, Ownable {
         _safeMint(recipient, newTokenId);
         _setTokenURI(
             newTokenId,
-            "ipfs://bafkreibu45npne5plcqxds7g4ye77kjvvvdky4wtmijmilh5mqcj3hxx6y"
+            "ipfs://bafkreicomeowzrtokodkt2m3bygezqrnjesceixb7rrxfrea3m7z7tpjge"
         );
 
         // On incrémente UNE seule fois

@@ -593,11 +593,11 @@
 	},
 	"sources": {
 		"2048.sol": {
-			"keccak256": "0x3fb084ef0c3a8c8ae5da31ee4bc41a455d5b2bcbe97d91bc5aeb2c412f52e95e",
+			"keccak256": "0x7a4bb40fcc1606fcc43ee2d927fcf32bd4311a20c711ac4bd2d66b7db933c549",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://83d44584741c60fd85a828ea0d7c8b99dc7eb2c569272fd61d380c89e701fb58",
-				"dweb:/ipfs/QmdWPMP85XRkGdhHN3osLVdkdwXXxyZXbdKbet8Xy9jHmT"
+				"bzz-raw://07db95a733cd47e56127700776eca4997ecc979d2c2df683c2dae0c8fbdfb565",
+				"dweb:/ipfs/QmNk4aCgNjGJ3FefYHGcUB3719cHXaUzBrudjbaN7e2Pwn"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.9.2/contracts/access/Ownable.sol": {
